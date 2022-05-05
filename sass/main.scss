@@ -1,0 +1,33 @@
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+@import './base/common';
+@import './base/container';
+
+@import './components/modal-btn';
+@import './components/logo';
+@import './components/title';
+@import './components/team-title';
+@import './components/social-list';
+@import './components/footer-social-list';
+@import './components/input_footer';
+@import './components/footer-btn';
+@import './components/portfolio-btn';
+@import './components/portfolio-subtitle';
+@import './components/portfolio-overlay';
+@import './components/modal';
+@import './components/contact-form';
+@import './components/checkbox';
+@import './components/modal-close-btn';
+@import './components/modal-submit-btn';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/icon-section';
+@import './layout/section-work';
+@import './layout/our-work';
+@import './layout/profession';
+@import './layout/clients-section';
+@import './layout/footer';
+@import './layout/portfolio-active';
+

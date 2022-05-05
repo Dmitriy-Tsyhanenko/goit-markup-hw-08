@@ -1,0 +1,41 @@
+.our-work {
+    padding-bottom: 94px;
+}
+
+.section-page {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+
+    &>.section-page__img {
+        flex-basis: calc(100% / 3 - 30px);
+        margin-right: 30px;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+}
+
+.application-list {
+    position: relative;
+}
+
+.application-list__item {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 370px;
+    height: 70px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--text-and-background-color);
+    background: rgba(47, 48, 58, 0.8);
+}

@@ -1,0 +1,51 @@
+.contact-list__address {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--text-and-background-color);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-collor);
+    }
+}
+
+.сontact-list__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-collor);
+    }
+}
+
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: #2f303a;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-link {
+    display: block;
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+
+.contact-list__item {
+    margin-bottom: 9px;
+
+    &:last-child {
+        margin: 0;
+    }
+}

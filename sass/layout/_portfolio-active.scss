@@ -1,0 +1,16 @@
+.active-page {
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -40px;
+        display: block;
+        width: 100%;
+        height: 4px;
+        background-color: var(--accent-collor);
+        border-radius: 2px;
+    }
+}
+
